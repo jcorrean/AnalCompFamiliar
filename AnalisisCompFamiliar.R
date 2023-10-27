@@ -45,3 +45,5 @@ plot(Sujeto, vertex.label.color = "black",
      edge.color = "gray30", 
      layout = layout_components, 
      main = "")
+
+ComposicionesFamiliares <- data.frame(table(Simon$Familia))
